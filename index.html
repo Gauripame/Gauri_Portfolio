@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gauri Pame Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+</head>
+
+<body>
+    <div class="container">
+        <video class="back-vid" autoplay loop muted plays-inline src="videos/galaxy.mp4"></video>
+
+        <!-- Header -->
+        <header data-aos="fade-down" data-aos-duration="2000">
+            <div class="left">
+                <img src="images/gauri.jpg" alt="logo">
+                <h2><span style="color: #72a1dea2;">Gauri</span>Pame</h2>
+            </div>
+
+            <ul>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+
+            <div class="box-icons">
+                <a href="https://github.com/Gauripame" target="_blank" rel="noopener noreferrer"><i
+                        class='bx bxl-github'></i></a>
+                <a href="https://www.linkedin.com/in/gauri-pame/" target="_blank" rel="noopener noreferrer"><i
+                        class='bx bxl-linkedin-square'></i></a>
+            </div>
+
+            <div class="menu-icon">
+                <i class='bx bx-menu'></i>
+            </div>
+        </header>
+
+        <!-- Hero -->
+        <section class="hero" id="about">
+            <div class="hero-info autoBlur" data-aos="fade-right" data-aos-duration="1000">
+                <div class="hero-info-title">
+                    <i class='bx bxl-sketch'></i>
+                    Full Stack Developer | Machine Learning Project Experience
+                </div>
+
+                <h1 data-aos="fade-right" data-aos-duration="3000">Hi, I'm <span class="gradient">Gauri Pame</span></h1>
+
+                <p>MCA graduate with expertise in Python, Django, React, and SQL. Skilled in developing responsive,
+                    user-friendly web applications and machine learning projects. Proven ability to write clean,
+                    efficient, and maintainable code while delivering high-impact solutions. Quick learner, adaptable to
+                    emerging technologies, and motivated to contribute to innovative teams.</p>
+
+                <!--<a href="#contact" class="hero-btn">
+                    <i class='bx bx-send'></i> Contact Me
+                </a>-->
+                <button onclick="location.href='#contact'">
+                    <i class='bx bx-send'></i> Contact Me
+                </button>
+
+            </div>
+
+            <div class="skills-video-box">
+                <video class="skills-video autoBlur" autoplay loop muted plays-inline
+                    src="videos/hero-video.mp4"></video>
+            </div>
+
+            <!--<div class="scroll-down"></div>-->
+            <!-- scroll button: jumps to the Education / Info section -->
+            <a href="#education" class="scroll-down" aria-label="Scroll to Education"></a>
+
+        </section>
+
+        <!-- Info Section -->
+        <section id="education" class="info-section">
+            <h1 class="section-title autoDisplay">Education 🎓</h1>
+            <div class="info-cards">
+                <div class="card">
+                    <h1>Master of Computer Applications</h1>
+                    <p>Anurag University | CGPA 8.30 | 2023 - 2025</p>
+                    <img src="images/grid1.png" alt="">
+                </div>
+
+                <div class="card">
+                    <h1>Bachelor of Computer Science</h1>
+                    <p>STRMUN University | CGPA 8.94 | 2021 - 2023</p>
+                    <div class="img-grid2"><img src="images/grid2.png" alt=""></div>
+                </div>
+
+                <div class="card">
+                    <h1>Programming Expertise</h1>
+                    <div class="p-card">
+                        <p>Python, Django, React, SQL, Data Structure, Machine Learning,Java, C, C++, MongoDB, Oracle,</p>
+                    </div>
+                    <video src="videos/glob.mp4" autoplay loop muted plays-inline></video>
+                </div>
+
+                <div class="card">
+                    <h1>My Passion</h1>
+                    <p>I love solving problems and building things through code. Programming isn't just my
+                        profession—it's my passion. I enjoy exploring new technologies, and enhancing my skills.</p>
+                    <img src="images/grid4.png" alt="">
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects -->
+        <section class="my-project" id="projects">
+            <h1 class="section-title autoDisplay">My Projects 👩‍💻</h1>
+
+            <div class="project-card">
+                <div class="project-vidbox autoBlur">
+                    <video loop muted playsinline id="projectVideo3" src="videos/hearing11.mp4"></video>
+                    <div class="hover-sign"></div>
+                </div>
+                <div class="project-info fadein-left">
+                    <h1>Hearing Loss Detection</h1>
+                    <p>Developed a system using Gradient Boosting, achieving 89% accuracy. Predicted hearing loss based
+                        on age, dB level, gender, and physical score with modular reports for clarity.</p>
+                    <button
+                        onclick="window.open('https://github.com/Gauripame/Hearing-Loss-Detection-Using-Machine-Learning.git')"><i
+                            class='bx bx-link-external'></i> GitHub</button>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <div class="project-vidbox autoBlur">
+                    <video loop muted playsinline id="projectVideo1" src="videos/heart22.mp4"></video>
+                    <div class="hover-sign"></div>
+                </div>
+                <div class="project-info fadein-left">
+                    <h1>Heart Failure Prediction</h1>
+                    <p>Developed a prediction model with 86% accuracy using scikit-learn. Enhanced performance by 5%
+                        through preprocessing, feature engineering, and model optimization.</p>
+                    <button onclick="window.open('https://github.com/Gauripame/Heart-failure-prediction.git')"><i
+                            class='bx bx-link-external'></i> GitHub</button>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <div class="project-vidbox autoBlur">
+                    <video loop muted playsinline id="projectVideo2" src="videos/blood33.mp4"></video>
+                    <div class="hover-sign"></div>
+                </div>
+                <div class="project-info fadein-left">
+                    <h1>Blood Bank Management System</h1>
+                    <p>Built a system for real-time blood inventory tracking, donor–patient matching, and secure
+                        role-based access. Improved workflows and accessibility in critical healthcare situations.</p>
+                    <button onclick="window.open('https://github.com/Gauripame/Bloodbank_management_system.git')"><i
+                            class='bx bx-link-external'></i> GitHub</button>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills -->
+        <!--<section class="skills-section" id="skills">
+            <h1 class="section-title autoDisplay">My Skills 💡</h1>
+            <div class="skills-box autoDisplay">
+                <img class="skills-image" src="images/digital brain (2).png" alt="">
+                <div class="Designer">
+                    <h1 class="gradient">Programming</h1>
+                    <p>Python, Java, C, C++, SQL, Django, React, Node.js</p>    
+                </div>
+                
+                <div class="coder">
+                    <h1 class="gradient">Databases & Tools</h1>
+                    <p>MySQL, MongoDB, Oracle, PL/SQL, Pandas, NumPy, Scikit-learn, Streamlit, Matplotlib, Seaborn</p>
+                </div>
+            </div>
+        </section>-->
+        <!-- Skills -->
+        <section class="skills-section" id="skills">
+            <h1 class="section-title autoDisplay">Skills & Expertise</h1>
+            <div class="skills-container">
+
+                <!-- Frontend Development -->
+                <div class="skill-card">
+                    <h2>Frontend Development</h2>
+                    <div class="skill"><span>React</span><span>95%</span>
+                        <div class="bar"><div data-percent="95%"></div></div>
+                    </div>
+                    <div class="skill"><span>HTML, CSS</span><span>90%</span>
+                         <div class="bar"><div data-percent="90%"></div></div>
+                    </div>
+                    <div class="skill"><span>Javascript</span><span>85%</span>
+                         <div class="bar"><div data-percent="85%"></div></div>
+                    </div>
+                </div>
+
+                <!-- Backend Development -->
+                <div class="skill-card">
+                    <h2>Backend Development</h2>
+                    <div class="skill"><span>Python & Django</span><span>92%</span>
+                         <div class="bar"><div data-percent="92%"></div></div>
+                    </div>
+                    <div class="skill"><span>C & C++</span><span>88%</span>
+                         <div class="bar"><div data-percent="88%"></div></div>
+                    </div>
+                    <div class="skill"><span>Java</span><span>80%</span>
+                         <div class="bar"><div data-percent="80%"></div></div>
+                    </div>
+                    <div class="skill"><span>Database (Sql,PlSql,Sqlite)</span><span>85%</span>
+                         <div class="bar"><div data-percent="85%"></div></div>
+                    </div>
+                </div>
+
+
+                <!-- Tools & Other -->
+                <div class="skill-card">
+                    <h2>Tools & Other</h2>
+                    <div class="skill"><span>Git & GitHub</span><span>90%</span>
+                        <div class="bar"><div data-percent="90%"></div></div>
+                    </div>
+                    <div class="skill"><span>Linux & Bash</span><span>85%</span>
+                        <div class="bar"><div data-percent="85%"></div></div>
+                    </div>
+                    <div class="skill"><span>VS Code</span><span>88%</span>
+                        <div class="bar"><div data-percent="88%"></div></div>
+                    </div>
+                    <div class="skill"><span>Jupyter Notebook</span><span>86%</span>
+                        <div class="bar"><div data-percent="86%"></div></div>
+                    </div>
+                </div>
+
+                <!-- Machine Learning -->
+                <div class="skill-card">
+                    <h2>Machine Learning Algorithems</h2>
+                    <div class="skill"><span>Gradient Boost</span><span>90%</span>
+                        <div class="bar"><div data-percent="90%"></div></div>
+                    </div>
+                    <div class="skill"><span>Support Vector Machine (SVM)</span><span>88%</span>
+                        <div class="bar"><div data-percent="88%"></div></div>
+                    </div>
+                    <div class="skill"><span>Decision Trees</span><span>85%</span>
+                        <div class="bar"><div data-percent="85%"></div></div>
+                    </div>
+                    <div class="skill"><span>Random Forest</span><span>87%</span>
+                        <div class="bar"><div data-percent="87%"></div></div>
+                    </div>
+                    <div class="skill"><span>XGBoost / CatBoost</span><span>83%</span>
+                        <div class="bar"><div data-percent="83%"></div></div>
+                    </div>
+                    <div class="skill"><span>K-Nearest Neighbors</span><span>82%</span>
+                        <div class="bar"><div data-percent="82%"></div></div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+
+        <!-- Contact -->
+        <section class="contact-section" id="contact">
+            <h1 class="section-title autoDisplay">Let's Talk 😊</h1>
+
+            <div class="social-box autoBlur">
+                <p>💡 I'm always eager to collaborate on<br> exciting projects,
+                    explore innovative ideas,<br> and contribute to meaningful solutions.<br>
+                    Whether you're building something new <br>or improving an existing platform,<br>
+                    I'd love to be part of your journey.
+                </p>
+                <a href="tel:+919325103613"><i class='bx bxs-phone'></i> +91 9325103613</a>
+                <a href="mailto:gauripame26@gmail.com"><i class='bx bxl-gmail'></i> gauripame26@gmail.com</a>
+                <a href="https://www.linkedin.com/in/gauri-pame/"><i class='bx bxl-linkedin-square'></i> LinkedIn</a>
+                <a href="https://github.com/Gauripame"><i class='bx bxl-github'></i> GitHub</a>
+                <a href="images/Gauri_CV.pdf" download >
+                    <i class='bx bxs-file-doc'></i> Resume
+                </a>
+                <!--
+                <div class="social-icons">
+                    <a href="https://github.com/Gauripame" target="_blank" rel="noopener noreferrer"><i
+                            class='bx bxl-github'></i></a>
+                    <a href="https://www.linkedin.com/in/gauri-pame/" target="_blank" rel="noopener noreferrer"><i
+                            class='bx bxl-linkedin-square'></i></a>
+                </div>
+            -->
+            </div>
+
+            <div class="contact-box autoBlur">
+                <form class="contact-box autoBlur" id="contactForm" action="https://api.web3forms.com/submit"
+                    method="POST">
+                    <!-- Web3Forms Access Key -->
+                    <input type="hidden" name="access_key" value="7ea6ecb7-3e11-4747-bfaf-c7eac3ae0e07">
+
+                    <p>Full Name</p>
+                    <input placeholder="Your Full name" type="text" name="name" required>
+
+                    <p>Email Address</p>
+                    <input placeholder="Your Email" type="email" name="email" required>
+
+                    <p>Your Message</p>
+                    <textarea class="input-message" name="message" placeholder="Share your thoughts..."
+                        required></textarea>
+
+                    <button type="submit">Send Message <i class='bx bx-mail-send'></i></button>
+                </form>
+                <!-- Popup -->
+                <div id="popup" class="popup" style="display:none;">
+                    <div class="popup-content">
+                        <p>✅ Message Sent Successfully!</p>
+                        <button onclick="closePopup()">OK</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Footer -->
+        <section class="footer">
+            <h1 class="gradient">©️2025, Made with ❤️ by Gauri Pame</h1>
+        </section>
+    </div>
+    <script src="app.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+</body>
+
+</html>
